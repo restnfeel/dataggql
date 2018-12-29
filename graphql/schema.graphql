@@ -1,0 +1,17 @@
+type BusStation {
+  STATION_ID: String!
+  STATION_NM_INFO: String!
+  SIGUN_NM: String!
+  SIGUN_CD: String!
+  STATION_MANAGE_NO: String
+  STATION_DIV_NM: String
+  JURISD_INST_NM: String
+  ENG_STATION_NM_INFO: String
+  LOCPLC_LOC: String
+  WGS84_LOGT: String
+  WGS84_LAT: String
+}
+
+type Query {
+  stations: [BusStation]!
+}
